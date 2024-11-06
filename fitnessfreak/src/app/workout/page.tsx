@@ -45,7 +45,7 @@ const page = () => {
     //   ]
     // }
 
-    // setWorkout(data)
+    setWorkout(data)
   }
   // Fetch workout details from the backend API
   fetch(process.env.NEXT_PUBLIC_BACKEND_API + '/workoutplans/workouts' + workoutid, {
