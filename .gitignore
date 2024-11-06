@@ -1,0 +1,13 @@
+# ignore node_modules folder
+node_modules/
+
+# ignore .next folder (הדורש בניית Next.js)
+.next/
+
+# ignore environment variable files
+.env.local
+.env.*.local
+
+# ignore logs and temp files
+*.log
+*.tmp

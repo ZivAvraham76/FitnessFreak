@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --col1: #ffc20e;
+  }
+
+input{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+
+
+}
+
+button:hover{
+    background-color: var(--col1);
+}
+
+.formpage{
+    background-color: blu;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input, textarea{
+    border: 3px solid var(--col1);
+    border-radius: 5px;
+}
+
+
